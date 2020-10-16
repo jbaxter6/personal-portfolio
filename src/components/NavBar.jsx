@@ -10,11 +10,11 @@ export default class navbar extends Component {
 
                 <div class="menu">
                     <ul>
-                        <li><a href="#">My Life</a></li>
-                        <li><a href="#">My Projects</a></li>
-                        <li><a href="#">My Goals</a></li>
-                        <li><a href="#">My Photos</a></li>
-                        <li><a href="#">My Info</a></li>
+                        <li><a href="#">Life</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Goals</a></li>
+                        <li><a href="#">Photos</a></li>
+                        <li class="btn"><a href="#">Contact</a></li>
                     </ul>
                 </div>
             </header>

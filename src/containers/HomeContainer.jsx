@@ -11,8 +11,8 @@ export default class HomeContainer extends Component {
                     </div>
                     <div class="home-text">
                         <h6 class="creator">Creator</h6>
-                        <h1 class="name">Johnnathan</h1>
-                        <p class="small-intro">Hello good people, my name is johnnathan baxter - 
+                        <h1 class="name">fourteen22</h1>
+                        <p class="small-intro">Hello good people, my name is Johnnathan Baxter - 
                         I'm a designer, idea machine, and a family man.</p>
                     </div>
                 </div>
