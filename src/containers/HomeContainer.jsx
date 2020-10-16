@@ -7,7 +7,7 @@ export default class HomeContainer extends Component {
                 <div class="container">
                     <div class="person">
                         <span class="person-overlay"></span>
-                        {/* <img src="" alt=""></img> */}
+                        <img src="" alt=""></img>
                     </div>
                     <div class="home-text">
                         <h6 class="creator">Creator</h6>

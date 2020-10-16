@@ -41,7 +41,16 @@
 
     <script>
       $(document).ready(function(){
-        $('.name').lettering();
+        $('.name, .creator, .small-intro').lettering();
+
+        // IMAGES OVERLAY EFFECT
+        anime({
+          targets: '.home .person-overlay',
+          translateX: 1100,
+          delay: 1000,
+          duration: 1500,
+          easing: 'easeInSine'
+        })
       })
     </script>
     <!--
