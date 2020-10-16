@@ -123,3 +123,13 @@ header .menu ul li.btn a:hover {
 .home-text .name span:last-child{
   margin-right: 0;
 }
+
+/* default state hide */
+.home .person img, 
+.creator span, 
+.name span,
+.logo,
+.menu li,
+.small-intro span {
+  opacity: 0;
+}

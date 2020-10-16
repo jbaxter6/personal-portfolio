@@ -13,7 +13,7 @@ export default class HomeContainer extends Component {
                         <h6 class="creator">Creator</h6>
                         <h1 class="name">fourteen22</h1>
                         <p class="small-intro">Hello good people, my name is Johnnathan Baxter - 
-                        I'm a designer, idea machine, and a family man.</p>
+                        I'm a family man first, that enjoys to develop and design software.</p>
                     </div>
                 </div>
                 
