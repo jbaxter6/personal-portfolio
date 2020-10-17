@@ -39,12 +39,12 @@ header .menu ul li a{
 }
 
 header .menu ul li a:hover{
-  color: #fff700;
+  color: rgb(0,150,255);
 }
 
 /* header button */
 header .menu ul li.btn a {
-  background-color: #fff700;
+  background-color: rgb(0,150,255);
   color: #000;
   padding: 14px 27px;
   border-top-left-radius: 15px;
@@ -132,4 +132,43 @@ header .menu ul li.btn a:hover {
 .menu li,
 .small-intro span {
   opacity: 0;
+}
+
+/* Wave */
+#ocean{
+  position:absolute;
+  width:100%;
+  min-height:50%;
+  background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0, rgb(0,50,150)),
+  color-stop(0.50, rgb(0,150,255))
+  );
+}
+
+.wave{
+  background:#000;
+  display:inline-block;
+  height:60%;
+  width:10px;
+  position:absolute;
+  -webkit-animation-name: dostuff; 
+  -webkit-animation-duration: 3s; 
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+
+@keyframes dostuff{
+  0%{
+    height:60%;
+  }
+  50%{ 
+    height:40%;
+  }
+  100%{ 
+    height:60%;
+  }
 }
