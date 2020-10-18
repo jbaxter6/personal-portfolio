@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
-import Wave from '../components/Wave'
 
-export default class LifeContainer extends Component {
+export default class ContactContainer extends Component {
     render() {
         return (
             <div>
-                <Wave />
+                
             </div>
         )
     }
