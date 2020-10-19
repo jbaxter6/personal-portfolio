@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link href="https://cdn.bootcss.com/font-awesome/5.8.0/css/all.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -123,6 +124,8 @@
         })
 
         // Contact page
+
+
         let t1 = anime.timeline({
           easing: 'easeOutExpo',
           duration: 750
@@ -155,14 +158,23 @@
           translateX: '50%',
           rotate: '45deg',
           duration: 5000,
+          delay: anime.stagger(100, {start: 2000}),
           autoplay: false
         })
 
-        document.querySelector('.contact-head').addEventListener('mouseover', () => {
+        document.querySelector('.grid-sec').addEventListener('mouseover', () => {
           rotate.play()
+          
+          anime({
+          targets: '.middle',
+          opacity: 1,
+          duration: 3000,
+          easing: 'easeInSine',
+          delay: anime.stagger(100, {start: 3000})
+          })
         })
 
-        // document.querySelector('.contact-head').addEventListener('mouseout',rotate.reverse())
+        
 
         // Contact Page ^
 

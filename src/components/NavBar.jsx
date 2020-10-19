@@ -4,10 +4,6 @@ export default class navbar extends Component {
     render() {
         return (
             <header>
-                <div>
-                    {/* <img src='' alt=''></img> */}
-                </div>
-
                 <div class="menu">
                     <ul>
                         <li><a href="/">Home</a></li>
@@ -17,6 +13,9 @@ export default class navbar extends Component {
                         <li><a href="#">Photos</a></li>
                         <li class="btn"><a href="/contact">Contact</a></li>
                     </ul>
+                </div>
+                <div class="logo">
+                    <p>Hey</p>{/* <img src='' alt=''></img> */}
                 </div>
             </header>
         )
