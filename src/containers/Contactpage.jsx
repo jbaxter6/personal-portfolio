@@ -7,6 +7,7 @@ export default class Contactpage extends Component {
         return (
             <div>
                 <NavBar />
+                <h1 class="contact-head">LET'S GET IN TOUCH!</h1>
                 <Contact />
             </div>
         )

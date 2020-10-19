@@ -7,7 +7,7 @@
 
 body {
   background: #000;
-  font-family: Open sans;
+  font-family: 'Open sans';
 }
 
 /* --------------------------------------= */
@@ -24,6 +24,7 @@ header .logo {
 
 header .menu {
   float: right;
+
 }
 
 header .menu ul li {
@@ -197,4 +198,34 @@ header .menu ul li.btn a:hover {
 
 /* --------------------------------------= */
 /* END OF LIFE PAGE */
+/* --------------------------------------= */
+
+/* --------------------------------------= */
+/* CONTACT PAGE */
+/* --------------------------------------= */
+
+.grid-sec {
+  display: grid;
+  grid-template-columns: repeat(10, auto)
+
+}
+
+.column {
+  background-color: black ;
+  height: 90vh;
+  transition: background-color 1s;
+}
+
+.contact-head {
+  font-size: 5em;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 12%;
+  opacity: 0;
+  z-index: 2;
+}
+
+/* --------------------------------------= */
+/* END OF CONTACT PAGE */
 /* --------------------------------------= */
