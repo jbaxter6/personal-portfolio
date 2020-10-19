@@ -19,12 +19,11 @@ header {
 }
 
 header .logo {
-  float: left;
+  float: right;
 }
 
 header .menu {
-  float: right;
-
+  float: left;
 }
 
 header .menu ul li {
