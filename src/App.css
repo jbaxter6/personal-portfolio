@@ -158,6 +158,7 @@ header .menu ul li.btn a:hover {
 /* Wave */
 #ocean{
   position:absolute;
+  opacity:0;
   width:100%;
   min-height:50%;
   background-image: -webkit-gradient(

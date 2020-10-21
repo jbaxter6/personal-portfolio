@@ -1,8 +1,29 @@
 import React, { Component } from 'react'
+import anime from 'animejs/lib/anime.es.js';
 import NavBar from '../components/NavBar'
 import Contact from './ContactContainer'
 
 export default class Contactpage extends Component {
+    
+    componentDidMount(){
+        anime({
+            targets: '.middle',
+            opacity: 1,
+            duration: 3000,
+            easing: 'easeInSine',
+            delay: anime.stagger(100, {start: 3000})
+        })
+
+        anime({
+            targets: '.contact-head',
+            opacity: 1,
+            top: '20%',
+            duration: 3000,
+            easing: 'easeInSine',
+            delay: anime.stagger(100, {start: 3000})
+        })
+    }
+    
     render() {
         return (
             <div class="contact-page">
