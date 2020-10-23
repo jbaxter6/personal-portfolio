@@ -86,7 +86,7 @@ export default class HomeContainer extends Component {
                 <div class="container">
                     <div class="person">
                         <span class="person-overlay"></span>
-                        <img src="" alt=""></img>
+                        <img src="https://images.unsplash.com/photo-1586358243754-7c366ef72a4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt=""></img>
                     </div>
                     <div class="home-text">
                         <h6 class="creator">Creator</h6>

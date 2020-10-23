@@ -27,7 +27,7 @@ export default class Contactpage extends Component {
     render() {
         return (
             <div class="contact-page">
-                <NavBar />
+                <NavBar/>
                 <h1 class="contact-head">LET'S GET IN TOUCH!</h1>
                 <div class="middle">
                     <a class="btn-social" href="https://www.linkedin.com/in/johnnathan-baxter-6b7a61158/">

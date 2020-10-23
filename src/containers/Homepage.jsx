@@ -6,7 +6,7 @@ export default class Homepage extends Component {
     render() {
         return (
             <div class="wrapper">
-                <NavBar/>
+                <NavBar />
                 <Home />
             </div>
         )
