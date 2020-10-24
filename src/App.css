@@ -7,7 +7,7 @@
 
 body {
   background: #090a0b;
-  font-family: 'Open sans';
+  font-family: 'Open Sans';
   overflow-x: hidden;
 }
 
@@ -17,6 +17,7 @@ body {
 
 header {
   padding: 40px 50px;
+  font-weight: bold;
 }
 
 header .logo {
@@ -167,7 +168,7 @@ header .menu ul li.btn a:hover {
   position:absolute;
   opacity:0;
   width:100%;
-  min-height:35%;
+  min-height:39%;
   margin-top: -400px;
   background-image: -webkit-gradient(
   linear,
@@ -206,14 +207,15 @@ header .menu ul li.btn a:hover {
 /* WAVE  */
 
 .wrap {
-  max-height: 70vh;
+  max-height: 60vh;
   overflow: hidden;
 }
 
 .about {
   padding: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
   color: white;
+  
 }
 
 .about .title-abt {
@@ -250,12 +252,14 @@ header .menu ul li.btn a:hover {
   padding-top: 90px;
   padding-right: 70px;
   background-color: #090a0b;
+  z-index: 99;
 }
 
 .about .about-content .right .text-abt {
   font-size: 25px;
-  font-weight: 600;
-  margin-bottom: 15px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  
 }
 
 .about .about-content .right .text-abt span {
@@ -264,13 +268,12 @@ header .menu ul li.btn a:hover {
 
 .about .about-content .right p{
   text-align: justify;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .about .about-content .right a{
   display: inline-block;
-  margin-left: 300px;
-  
+  margin-left: 325px;
   background: rgb(0,150,255);
   color: white;
   font-size:15px;
@@ -320,16 +323,6 @@ header .menu ul li.btn a:hover {
   border-radius: 10px;
 }
 
-.contact-head {
-  font-size: 5em;
-  color: white;
-  position: absolute;
-  top: 40%;
-  left: 12%;
-  opacity: 0;
-  z-index: 2;
-}
-
 .col-letter {
   margin-top: 40vh;
   margin-left: 35%;
@@ -340,10 +333,21 @@ header .menu ul li.btn a:hover {
 
 /* social buttons */
 
+.contact-head {
+  font-family: "Poppins";
+  font-size: 5em;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  opacity: 0;
+  z-index: 2;
+}
+
 .middle {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 35%;
   opacity: 0;
   transform: translate(-50%, -50%);
 }
