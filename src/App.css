@@ -151,7 +151,9 @@ header .menu ul li.btn a:hover {
 .name span,
 .logo,
 .menu li,
-.small-intro span {
+.small-intro span,
+.para span,
+.para2 span {
   opacity: 0;
 }
 
@@ -222,7 +224,7 @@ header .menu ul li.btn a:hover {
   position: relative;
   text-align: center;
   font-size: 40px;
-  font-weight: 500; 
+  font-weight: 500;
 }
 
 .about .about-content {
@@ -259,7 +261,7 @@ header .menu ul li.btn a:hover {
   font-size: 25px;
   font-weight: bolder;
   margin-bottom: 20px;
-  
+  opacity: 0; 
 }
 
 .about .about-content .right .text-abt span {
@@ -272,6 +274,7 @@ header .menu ul li.btn a:hover {
 }
 
 .about .about-content .right a{
+  text-decoration: none;
   display: inline-block;
   margin-left: 325px;
   background: rgb(0,150,255);
@@ -285,6 +288,10 @@ header .menu ul li.btn a:hover {
   transition: all 0.3s ease;
 }
 
+.buttn-div {
+  opacity: 0;
+}
+
 .about .about-content .right a:hover {
   color: rgb(0,150,255);
   background: none;
@@ -293,8 +300,6 @@ header .menu ul li.btn a:hover {
 .about .about-content .column {
   width: 50%;
 }
-
-
 
 
 /* --------------------------------------= */

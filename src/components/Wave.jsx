@@ -24,11 +24,9 @@ export default class Wave extends Component {
         this.createOcean()
         anime({
             targets: '#ocean',
-            opacity: 1,
-            loop: true,
-            duration: 2000,
-            direction: 'alternate',
-            easing: 'cubicBezier(.5, .05, .1, .3)'
+            opacity: .2,
+            duration: 5000,
+            delay: anime.stagger(50, {start: 12000})
         })
     }
 
