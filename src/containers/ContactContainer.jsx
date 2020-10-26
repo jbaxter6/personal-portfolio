@@ -12,14 +12,14 @@ export default class ContactContainer extends Component {
           t1.add({
             targets: '.column',
             width: '100%',
-            backgroundColor: 'rgb(0,50,150)',
+            backgroundColor: 'white',
             delay: anime.stagger(100)
           })
   
           t1.add({
             targets: '.column',
             width: '90%',
-            backgroundColor: 'rgb(0,150,255)'
+            backgroundColor: '#F0F8FF'
           })
 
           anime({

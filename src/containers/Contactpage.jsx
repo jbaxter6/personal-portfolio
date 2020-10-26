@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import anime from 'animejs/lib/anime.es.js';
 import NavBar from '../components/NavBar'
 import Contact from './ContactContainer'
+import {ContactForm} from '../components/ContactForm'
 
 export default class Contactpage extends Component {
     
@@ -29,6 +30,7 @@ export default class Contactpage extends Component {
             <div class="contact-page">
                 <NavBar/>
                 <h1 class="contact-head">LET'S GET IN TOUCH!</h1>
+                <ContactForm/>
                 <div class="middle">
                     <a class="btn-social" href="https://www.linkedin.com/in/johnnathan-baxter-6b7a61158/">
 				        <i class="fab fa-linkedin-in"></i>
