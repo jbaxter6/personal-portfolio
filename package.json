@@ -9,6 +9,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "animejs": "^3.2.1",
+    "aos": "^2.3.4",
     "charming": "^3.0.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",

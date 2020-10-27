@@ -456,51 +456,110 @@ form {
 }
 
 .proj1-left {
-  color: blue;
-  border: solid 1px;
+  color: white;
+  border: solid 1px grey;
   height: 80vh;
   width: 45vw;
   margin-left: 3%;
+  padding-top: 90px;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+  background-color: grey;
+  z-index: 99;
 }
 
 .proj1-right {
-  color: blue;
-  border: solid 1px;
+  color: white;
+  border: solid 1px grey;
   height: 80vh;
   width: 45vw;
   margin-right: 3%;
+  padding-top: 90px;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+  background-color: grey;
+  z-index: 99;
 }
 
 .proj2-left {
-  color: blue;
+  color: white;
   border: solid 1px;
   height: 80vh;
   width: 45vw;
   margin-left: 3%;
+  padding-top: 90px;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+  background-color: grey;
+  z-index: 99;
 }
 
 .proj2-right {
-  color: blue;
+  color: white;
   border: solid 1px;
   height: 80vh;
   width: 45vw;
   margin-right: 3%;
+  padding-top: 90px;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+  background-color: grey;
+  z-index: 99;
 }
 
 .proj3-left {
-  color: blue;
+  color: white;
   border: solid 1px;
   height: 80vh;
   width: 45vw;
   margin-left: 3%;
+  padding-top: 90px;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+  background-color: grey;
+  z-index: 99;
 }
 
 .proj3-right {
-  color: blue;
+  color: white;
   border: solid 1px;
   height: 80vh;
   width: 45vw;
   margin-right: 3%;
+  padding-top: 90px;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+  background-color: grey;
+  z-index: 99;
+}
+
+.proj-bttn a{
+  text-decoration: none;
+  display: inline-block;
+  background: rgb(0,150,255);
+  color: white;
+  font-size:15px;
+  padding: 12px 36px;
+  font-weight: 500;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid rgb(0,150,255);
+  transition: all 0.3s ease;
+}
+
+.proj-bttn {
+  opacity: 0;
+}
+
+.proj-bttn a:hover {
+  color: rgb(0,150,255);
+  background: none;
 }
 
 /* .caro-img {
