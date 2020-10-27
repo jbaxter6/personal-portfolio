@@ -51,7 +51,7 @@ export default class About extends Component {
             <section class="about" id="about">
                 <div class="max-width">
                     <div class="about-content">
-                        <div class="column left">
+                        <div class="left column">
                             <img src="https://images.unsplash.com/photo-1586358243754-7c366ef72a4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt=""></img>
                         </div>
                         <div class="column right">

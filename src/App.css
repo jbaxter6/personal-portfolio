@@ -381,7 +381,7 @@ form {
   border-radius: 30%;
   box-shadow: 0 5px 15px -5px #00000070;
   border: 2px solid rgb(0,150,255);
-  color: #3498db;
+  color: rgb(0,150,255);
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -403,7 +403,7 @@ form {
   position: absolute;
   width: 120%;
   height: 120%;
-  background: #3498db;
+  background: rgb(0,150,255);
   transform: rotate(45deg);
   left: -110%;
   top: 90%;
@@ -442,7 +442,65 @@ form {
 
 .proj-cont {
   color:white;
-  
+  border: solid 1px;
+  height: 270vh;
+}
+
+.project {
+  color:red;
+  border: solid 1px;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.proj1-left {
+  color: blue;
+  border: solid 1px;
+  height: 80vh;
+  width: 45vw;
+  margin-left: 3%;
+}
+
+.proj1-right {
+  color: blue;
+  border: solid 1px;
+  height: 80vh;
+  width: 45vw;
+  margin-right: 3%;
+}
+
+.proj2-left {
+  color: blue;
+  border: solid 1px;
+  height: 80vh;
+  width: 45vw;
+  margin-left: 3%;
+}
+
+.proj2-right {
+  color: blue;
+  border: solid 1px;
+  height: 80vh;
+  width: 45vw;
+  margin-right: 3%;
+}
+
+.proj3-left {
+  color: blue;
+  border: solid 1px;
+  height: 80vh;
+  width: 45vw;
+  margin-left: 3%;
+}
+
+.proj3-right {
+  color: blue;
+  border: solid 1px;
+  height: 80vh;
+  width: 45vw;
+  margin-right: 3%;
 }
 
 /* .caro-img {

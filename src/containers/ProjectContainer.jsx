@@ -12,9 +12,18 @@ export default class ProjectContainer extends Component {
         return (
 
             <div class="proj-cont">
-
-                
-
+                <div class="project">
+                    <div class="proj1-left"></div>
+                    <div class="proj1-right"></div>
+                </div>
+                <div class="project">
+                    <div class="proj2-left"></div>
+                    <div class="proj2-right"></div>
+                </div>
+                <div class="project">
+                    <div class="proj3-left"></div>
+                    <div class="proj3-right"></div>
+                </div>
             </div>
             
             

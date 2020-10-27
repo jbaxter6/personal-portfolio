@@ -19,7 +19,7 @@ export default class ContactContainer extends Component {
           t1.add({
             targets: '.column',
             width: '90%',
-            backgroundColor: '#F0F8FF'
+            backgroundColor: 'rgb(0,150,255)'
           })
 
           anime({
