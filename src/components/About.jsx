@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import anime from 'animejs/lib/anime.es.js';
-import Resume from '../assets/Resume.pdf'
+import Resume from '../assets/Resume.pdf';
 
 const charming = require('charming')
 
