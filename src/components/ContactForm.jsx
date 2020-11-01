@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {TextField, InputBase } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { blue } from '@material-ui/core/colors';
