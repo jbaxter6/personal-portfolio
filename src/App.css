@@ -18,6 +18,7 @@ body {
 header {
   padding: 40px 50px;
   font-weight: bold;
+  max-height: 10vh;
 }
 
 header .logo {
@@ -92,7 +93,9 @@ header .menu ul li.btn a:hover {
   float: right;
   position: relative;
   border-radius:  70px 0 70px 0;
-  max-height: 700px;
+  margin-top: 5% ;
+  max-height: 45%;
+  max-width: 40%;
   overflow: hidden;
 }
 
@@ -122,22 +125,24 @@ header .menu ul li.btn a:hover {
 .home-text h6 {
   text-transform: uppercase;
   letter-spacing: 10px;
-  font-size: 20px;
+  font-size: 1.5vw;
 }
 
 .home-text h1 {
   text-transform: uppercase;
-  font-size: 100px;
+  font-size: 5vw;
 }
 
 .home-text p {
   max-width: 500px;
-  font-size: 16px;
-  margin-top: 230px;
+  font-size: 1vw;
+  font-weight: bold;
+  margin-top: 15%;
 }
 
 .home-text .name span {
   margin-right: 80px;
+  font-size: 5wv;
   display: inline-block;
 }
 
@@ -168,10 +173,10 @@ header .menu ul li.btn a:hover {
 /* Wave */
 #ocean{
   position:absolute;
+  bottom: 0;
   opacity:0;
   width:100%;
-  min-height:39%;
-  margin-top: -400px;
+  min-height:30vh;
   background-image: -webkit-gradient(
   linear,
   left bottom,
@@ -209,7 +214,7 @@ header .menu ul li.btn a:hover {
 /* WAVE  */
 
 .wrap {
-  max-height: 60vh;
+  max-height: 70vh;
   overflow: hidden;
 }
 
@@ -217,14 +222,8 @@ header .menu ul li.btn a:hover {
   padding: 20px;
   font-family: "Poppins";
   color: white;
-  
-}
-
-.about .title-abt {
-  position: relative;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 500;
+  max-height: 70vh;
+  /* background-color: red; */
 }
 
 .about .about-content {
@@ -235,30 +234,30 @@ header .menu ul li.btn a:hover {
 
 .about .about-content .left {
   width: 45%;
-  background-color: #090a0b;
-  padding-left: 10%;
-  padding-top: 5%;
+  background-color: transparent;
+  padding-left: 5%;
+  padding-top: 3%;
   z-index: 99;
 }
 
 .about .about-content .left img {
-  height: 400px;
-  width: 400px;
+  height: 50vh;
+  width: 30vw;
   object-fit: cover;
   border-radius: 6px;
 }
 
 .about .about-content .right{
-  width: 55%;
-  margin-right: 30px;
-  padding-top: 90px;
-  padding-right: 70px;
-  background-color: #090a0b;
+  width: 60%;
+  margin-right: 5%;
+  padding-top: 3%;
+  /* padding-right: 70px; */
+  background-color:transparent;
   z-index: 99;
 }
 
 .about .about-content .right .text-abt {
-  font-size: 25px;
+  font-size: 3vh;
   font-weight: bolder;
   margin-bottom: 20px;
   opacity: 0; 
@@ -270,16 +269,17 @@ header .menu ul li.btn a:hover {
 
 .about .about-content .right p{
   text-align: justify;
-  margin-bottom: 20px;
+  font-size: 1.1vw;
+  margin-bottom: 10px;
 }
 
 .about .about-content .right a{
   text-decoration: none;
   display: inline-block;
-  margin-left: 325px;
+  margin-left: 40%;
   background: rgb(0,150,255);
   color: white;
-  font-size:15px;
+  font-size: 2vh;
   padding: 12px 36px;
   font-weight: 500;
   margin-top: 20px;
@@ -325,6 +325,7 @@ header .menu ul li.btn a:hover {
 .column {
   background-color: black;
   height: 90vh;
+  width: 10vw;
   transition: background-color 1s;
   border-radius: 10px;
 }
@@ -340,8 +341,8 @@ header .menu ul li.btn a:hover {
 /* social buttons */
 
 .contact-head {
-  font-family: "Poppins";
-  font-size: 5em;
+  font-family: 'Poppins';
+  font-size: 8vh;
   color: white;
   position: absolute;
   top: 40%;

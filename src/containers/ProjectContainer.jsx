@@ -18,7 +18,11 @@ const ProjectContainer = () => {
     return (
             <div class="proj-cont">
                 <div class="project">
-                    <div data-aos="fade-right" class="proj1-left">
+                    <div 
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    class="proj1-left">
                         <h3>Home Sweet Home</h3>
                         <p>Home Sweet Home is a real estate platform 
                         that gives home buyers and sellers the opportunity 
@@ -30,11 +34,27 @@ const ProjectContainer = () => {
                                 <a href="https://github.com/jbaxter6/Home-Sweet-Home">Source Code</a>
                         </div>
                     </div>
-                    <div data-aos="fade-left" class="proj1-right"></div>
+                    <div 
+                    data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" 
+                    class="proj1-right">
+
+                    </div>
                 </div>
                 <div class="project">
-                    <div data-aos="fade-right" class="proj2-left"></div>
-                    <div data-aos="fade-left" class="proj2-right">
+                    <div 
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" 
+                    class="proj2-left">
+
+                    </div>
+                    <div 
+                    data-aos="fade-left" 
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    class="proj2-right">
                         <h3>Serpiente</h3>
                             <p>Serpiente is an online game built with a React front-end 
                             and a Rails back-end, with the intent of re-creating the famous 
@@ -52,7 +72,11 @@ const ProjectContainer = () => {
                     </div>
                 </div>
                 <div class="project">
-                    <div data-aos="fade-right" class="proj3-left">
+                    <div 
+                    data-aos="fade-right" 
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    class="proj3-left">
                     <h3>Bankr</h3>
                             <p>Bankr is an online banking platform that grants existing and new 
                             account holders the opportunity to initiate bank processes such as creating 
@@ -64,7 +88,13 @@ const ProjectContainer = () => {
                                     <a href="https://github.com/jbaxter6/bankr">Source Code</a>
                             </div>
                     </div>
-                    <div data-aos="fade-left" class="proj3-right"></div>
+                    <div 
+                    data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" 
+                    class="proj3-right">
+
+                    </div>
                 </div>
             </div>
         );
