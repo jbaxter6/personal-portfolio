@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import anime from 'animejs/lib/anime.es.js';
 
 export default class Wave extends Component {
