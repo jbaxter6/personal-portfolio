@@ -1,5 +1,7 @@
-import React from 'react';
+// import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {TextField, InputBase } from '@material-ui/core';
+import anime from 'animejs/lib/anime.es.js';
 import { makeStyles } from '@material-ui/core/styles';
 import { blue } from '@material-ui/core/colors';
 
@@ -11,17 +13,25 @@ const useStyles = makeStyles((theme) => ({
         width: '25ch',
         }
     },
-
     textField: {
         backgroundColor: "white",
         borderRadius: theme.shape.borderRadius,
     }
-
 }));
 
 export const ContactForm = () => {
     const classes = useStyles();
     const [values, setValues] = React.useState('');
+
+    useEffect(() => {
+        anime({
+            targets: '#cont-for',
+            opacity: 1,
+            duration: 2000,
+            easing: 'easeInBack',
+            delay: anime.stagger(100, {start: 2000})
+        })
+    })
     
     const handleChange = (event) => {
         setValues({
@@ -64,6 +74,9 @@ export const ContactForm = () => {
                 className={classes.textField}
                 onChange={handleChange}
             />
+            <div class="buttn-div">
+                <a href="" >Download CV</a>
+            </div>
         </form>
     )
 }

@@ -29,7 +29,7 @@ export default class Contactpage extends Component {
         return (
             <div class="contact-page">
                 <NavBar/>
-                <h1 class="contact-head">LET'S GET IN TOUCH!</h1>
+                <h1 class="contact-head">Let's get in touch!</h1>
                 <ContactForm/>
                 <div class="middle">
                     <a class="btn-social" href="https://www.linkedin.com/in/johnnathan-baxter-6b7a61158/">
