@@ -89,7 +89,7 @@ export default class HomeContainer extends Component {
                         <img src="https://images.unsplash.com/photo-1586358243754-7c366ef72a4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt=""></img>
                     </div>
                     <div class="home-text">
-                        <h6 class="creator">Creator</h6>
+                        <h6 class="creator">Ceator</h6>
                         <h1 class="name">Johnnathan</h1>
                         <p class="small-intro">Hello good people, my name is Johnnathan Baxter. 
                         I design and develop to bring ideas to life.</p>
