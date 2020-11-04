@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import anime from 'animejs/lib/anime.es.js';
 import Resume from '../assets/Resume.pdf';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const charming = require('charming')
 
@@ -12,6 +14,8 @@ export default class About extends Component {
         
         charming(para)
         charming(para2)
+
+        Aos.init({duration: 3000})
 
         anime({
             targets: '.text-abt',
@@ -51,7 +55,12 @@ export default class About extends Component {
             <section class="about" id="about">
                 <div class="max-width">
                     <div class="about-content">
-                        <div class="left column">
+                        <div 
+                        class="left column"
+                        data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
+                        >
                             <img src="https://images.unsplash.com/photo-1586358243754-7c366ef72a4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt=""></img>
                         </div>
                         <div class="column right">
